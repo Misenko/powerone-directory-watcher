@@ -26,3 +26,12 @@ Makefile*
 # QtCreator
 
 *.autosave
+*.pro.user
+/dist/
+/build/
+
+# NetBeans files
+/nbproject/
+moc_*
+ui_*
+.dep.inc
