@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/add.ico</file>
+        <file>img/delete.ico</file>
+        <file>img/eye.png</file>
+        <file>img/folder.ico</file>
+    </qresource>
+</RCC>

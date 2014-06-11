@@ -7,7 +7,7 @@
 
 DirectoryWatcher::DirectoryWatcher() {
     settings = new Settings();
-    systemTray = new QSystemTrayIcon(QIcon("img/eye.png"), this);
+    systemTray = new QSystemTrayIcon(QIcon(":/img/img/eye.png"), this);
     fileSystemWatcher = new QFileSystemWatcher(this);
 
     createMenu();

@@ -14,8 +14,8 @@
    <string>Settings</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>img/eye.png</normaloff>img/eye.png</iconset>
+   <iconset resource="img.qrc">
+    <normaloff>:/img/img/eye.png</normaloff>:/img/img/eye.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_5">
    <item>
@@ -61,8 +61,8 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset>
-                <normaloff>img/add.ico</normaloff>img/add.ico</iconset>
+               <iconset resource="img.qrc">
+                <normaloff>:/img/img/add.ico</normaloff>:/img/img/add.ico</iconset>
               </property>
               <property name="flat">
                <bool>true</bool>
@@ -84,8 +84,8 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset>
-                <normaloff>img/delete.ico</normaloff>img/delete.ico</iconset>
+               <iconset resource="img.qrc">
+                <normaloff>:/img/img/delete.ico</normaloff>:/img/img/delete.ico</iconset>
               </property>
               <property name="flat">
                <bool>true</bool>
@@ -150,9 +150,8 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="folder-open">
-                <normaloff/>
-               </iconset>
+               <iconset resource="img.qrc">
+                <normaloff>:/img/img/folder.ico</normaloff>:/img/img/folder.ico</iconset>
               </property>
               <property name="flat">
                <bool>true</bool>
@@ -177,8 +176,8 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset>
-                <normaloff>img/delete.ico</normaloff>img/delete.ico</iconset>
+               <iconset resource="img.qrc">
+                <normaloff>:/img/img/delete.ico</normaloff>:/img/img/delete.ico</iconset>
               </property>
               <property name="flat">
                <bool>true</bool>
@@ -271,7 +270,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>dateOption1RadioButton</sender>
